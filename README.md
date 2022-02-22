@@ -36,6 +36,10 @@ Alexis Rose Garcia
 Alexisg324@gmail.com
 www.linkedin.com/in/alexis-rose-garcia
 
+Kyle Huber
+kyhuber@gmail.com
+https://www.linkedin.com/in/huberkyle/
+
 
 # License
 
