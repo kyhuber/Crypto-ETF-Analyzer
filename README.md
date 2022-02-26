@@ -2,13 +2,13 @@
 
 The explosive growth of cryptocurrency prices in recent years has piqued the interest of many investors, both retail and institutional. Although individual cryptocurrencies can be purchased directly through an exchange, new crypto-related investment opportunities are becoming available in the market, such as Exchange Traded Funds (ETFs).
 
-This application compares the performance of BTC ETF's, Crytpo ETF's, and the price of BTC overtime.  
+This application compares the performance of BTC ETFs, Crytpo ETFs, and the price of BTC overtime.  
 
-S&P 500/SPY will be used as a baseline throughout the entire application.  
+S&P 500 (SPY) will be used as a baseline throughout the entire application.  
 
-As an investor (user), this app will allow you to select a cryotocurrency or ETF and view the performance trend data in a vizualized graph over 3 years.  
+As an investor (user), this app will allow you to select a cryotocurrency, stock, or ETF and view the performance trend data in a vizualized graph.  
 
-Investors (user) will be able to use this application, with it's vizualization tools, to make decisions that are best aligned to their individual investment goals.  
+Investors will be able to use this application, with it's vizualization tools, to make decisions that are best aligned to their individual investment goals.  
 
 # Technologies required: 
 
