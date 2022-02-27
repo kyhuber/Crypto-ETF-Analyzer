@@ -15,6 +15,9 @@ Pandas
 Jupyter Lab
 Matplotlib
 MCForecastTools
+Yahoo Finance API
+Alphavantage API
+Streamlit
 
 # Installation Guide (MacOS)
 
@@ -24,7 +27,7 @@ MCForecastTools
 
 # Usage
 
-
+To use the Crypto ETF app, the user must input their initial investment, stock ticker, cryptocurrency, portfolio allocation, and number of years to simulate. The app then calls for data via API and renders plots for the user to review.
 
 # Contributors
 
