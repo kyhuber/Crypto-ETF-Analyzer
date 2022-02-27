@@ -25,7 +25,7 @@ def mcstreamlit(initial_investment,ticker_choice,crypto_choice,weight1,weight2,y
     MC_df = MCSimulation(
         portfolio_data = df.dropna(),
         weights = [weight1,weight2],
-        num_simulation = 500,
+        num_simulation = 50,
         num_trading_days = 252*years)
     
     x = MC_df.calc_cumulative_return()
