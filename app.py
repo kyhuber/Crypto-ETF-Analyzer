@@ -17,25 +17,25 @@ st.header('Crypto and Stock Comparison Tool')
 #Crypto Define Input
 crypto_choice = st.sidebar.selectbox(
     "Which cryptocurrency would you like to compare?",
-    ("BTC-USD","ETH-USD","LTC-USD","XRP-USD"))
-cryptoData = yf.Ticker(crypto_choice)
+    ("BTC","ETH","LTC","XRP"))
+cryptoData = yf.Ticker(f"{crypto_choice}-USD")
 cryptoDf = cryptoData.history(period="id", start="2020-10-18",index_col="Date", parse_dates=["Date"])
 
 #Ticker Define Input
 ticker_choice = st.sidebar.text_input(
-    "Which stock would you like to compare?")
+    "Which stock would you like to compare?",value="SPY")
 tickerData = yf.Ticker(ticker_choice)
 tickerDf = tickerData.history(period="id", start="2020-10-18",index_col="Date", parse_dates=["Date"])
 
 #Gather other inputs
 initial_investment = st.sidebar.number_input(
-    "What is your initial investment?",min_value=1,step=5)
+    "What is your initial investment?",min_value=1,step=100)
 initial_investment = int(initial_investment)
 weight1 = st.sidebar.number_input(
-    "What percent to your crypto investment?",max_value=100,step=1)
+    "What percent to your crypto investment?",max_value=100,step=1,value=50)
 weight1 = int(weight1)
 weight2 = st.sidebar.number_input(
-    "What percent to your stock investment?",max_value=100,step=1)
+    "What percent to your stock investment?",max_value=100,step=1,value=50)
 weight2 = int(weight2)
 years = st.sidebar.number_input(
     "How many years do you want to simulate",step=1)
