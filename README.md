@@ -1,12 +1,10 @@
-# Crypto ETF Investment Analysis: This program will compare Bitcoin ETF, Crypto ETF, and price of BTC overtime to see which is a best investment for the user.
+# Crypto ETF Investment Analysis
 
 The explosive growth of cryptocurrency prices in recent years has piqued the interest of many investors, both retail and institutional. Although individual cryptocurrencies can be purchased directly through an exchange, new crypto-related investment opportunities are becoming available in the market, such as Exchange Traded Funds (ETFs).
 
-This application compares the performance of BTC ETFs, Crytpo ETFs, and the price of BTC overtime.  
+This app allows the user to select stocks, ETFs, and cryptocurrencies over time to view price performance over time. The app also offers a Monte Carlo simulation to forecast future performance, where the user can change the allocation of their portfolio.
 
-S&P 500 (SPY) will be used as a baseline throughout the entire application.  
-
-As an investor (user), this app will allow you to select a cryotocurrency, stock, or ETF and view the performance trend data in a vizualized graph.  
+The S&P 500 (SPY) will be used as a baseline throughout the entire application.
 
 Investors will be able to use this application, with it's vizualization tools, to make decisions that are best aligned to their individual investment goals.  
 
@@ -29,8 +27,6 @@ MCForecastTools
 
 
 # Contributors
-
-(Please enter your information here) 
 
 Alexis Rose Garcia
 Alexisg324@gmail.com
