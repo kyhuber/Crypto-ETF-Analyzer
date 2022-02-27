@@ -21,31 +21,35 @@ crypto_choice = st.sidebar.selectbox(
 cryptoData = yf.Ticker(crypto_choice)
 cryptoDf = cryptoData.history(period="id", start="2020-10-18",index_col="Date", parse_dates=["Date"])
 
-#Crypto Cumulative Returns
-cryptoDf["Daily Return"] = cryptoDf.Close.pct_change()
-crypto_cumulative_returns = (1 + cryptoDf["Daily Return"]).cumprod()
-
 #Ticker Define Input
 ticker_choice = st.sidebar.text_input(
     "Which stock would you like to compare?")
 tickerData = yf.Ticker(ticker_choice)
 tickerDf = tickerData.history(period="id", start="2020-10-18",index_col="Date", parse_dates=["Date"])
 
+#Gather other inputs
+initial_investment = st.sidebar.number_input(
+    "What is your initial investment?",min_value=1,step=5)
+initial_investment = int(initial_investment)
+weight1 = st.sidebar.number_input(
+    "What percent to your crypto investment?",max_value=100,step=1)
+weight1 = int(weight1)
+weight2 = st.sidebar.number_input(
+    "What percent to your stock investment?",max_value=100,step=1)
+weight2 = int(weight2)
+years = st.sidebar.number_input(
+    "How many years do you want to simulate",step=1)
+years = int(years)
+
+st.write(mcstreamlit(initial_investment,ticker_choice,crypto_choice,weight1,weight2,years))
+
+#Crypto Cumulative Returns
+cryptoDf["Daily Return"] = cryptoDf.Close.pct_change()
+crypto_cumulative_returns = (1 + cryptoDf["Daily Return"]).cumprod()
+
 #Ticker Cumulative Returns
 tickerDf["Daily Return"] = tickerDf.Close.pct_change()
 ticker_cumulative_returns = (1 + tickerDf["Daily Return"]).cumprod()
-
-#Gather other inputs
-initial_investment = st.sidebar.number_input(
-    "What is your initial investment?")
-weight1 = st.sidebar.number_input(
-    "What percent to your crypto investment?")
-weight2 = st.sidebar.number_input(
-    "What percent to your stock investment?")
-years = st.sidebar.number_input(
-    "How many years do you want to simulate")
-
-st.write(mcstreamlit(initial_investment,ticker_choice,crypto_choice,weight1,weight2,years))
 
 #Plot Both Cumulative Returns
 st.write(f"{crypto_choice} vs {ticker_choice} Cumulative Returns")

@@ -30,7 +30,7 @@ def mcstreamlit(initial_investment,ticker_choice,crypto_choice,weight1,weight2,y
     
     x = MC_df.calc_cumulative_return()
 
-    output_summary=MC_df.summarize_cumulative_return()
+    output_summary = MC_df.summarize_cumulative_return()
     percent_change = (output_summary["mean"])
-    final_investment=initial_investment*percent_change 
-    return f"if you invest in {ticker_choice} and {crypto_choice} with {weight1}%,{weight2}% with 100 dollars you would have ${final_investment:.2f}"
+    final_investment = initial_investment*percent_change 
+    return f"If you invest {initial_investment} dollars in {ticker_choice} and {crypto_choice} with a {weight1}% - {weight2}% allocation, you will have ${final_investment:.2f} in {years} years."
