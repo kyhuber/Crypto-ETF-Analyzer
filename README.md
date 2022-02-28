@@ -127,7 +127,7 @@ To use the Crypto ETF app, the user must input their initial investment, stock t
 
 
 
-The following are investment options available to the user(s) against the SPX 500 (SPY 500).  
+The following are investment options available to the user(s) against the S&P 500 (SPY).  
 
 <img width="990" alt="Screen Shot 2022-02-27 at 8 04 12 PM" src="https://user-images.githubusercontent.com/96351123/155922170-92ad7311-0d5f-498e-b1bb-557a2760e6f1.png">
 
@@ -193,6 +193,13 @@ Total 10-year earnings/returns since initial investment: SPYxETF
 Total 10-year earnings/returns since initial investment: SPYxBTC
 
 <img width="900" alt="Screen Shot 2022-02-27 at 8 45 48 PM" src="https://user-images.githubusercontent.com/96351123/155925584-15512a47-522c-4d79-a81b-9ca5336764cd.png">
+
+Dashboard demonstration:
+
+![image (1)](https://user-images.githubusercontent.com/96351123/155931654-4f56fcb1-0f85-41b7-ae8e-8433070ad824.png)
+
+<img width="856" alt="IMG_0426" src="https://user-images.githubusercontent.com/96351123/155931677-09b373f8-14d0-4282-b702-b1a5cfe68292.png">
+
 
 # Contributors
 
