@@ -93,36 +93,30 @@ Installing Matplotlib:
    import numpy as np
    from pathlib import Path
 
-   %matplotlib inline"
+%matplotlib inline"
 
-   ## Matplotlib import from application for Monte Carlo Simulation
-   ```
-   import os
-   from sqlite3 import Date
-   import pandas as pd
-   import requests
-   import streamlit as st
-   from dotenv import load_dotenv
-   from datetime import datetime
-   from MCForecastTools import MCSimulation
-   import matplotlib.pyplot as plt
-   import yfinance as yf
-   
-   ```
+## Matplotlib import from application for Monte Carlo Simulation
+```
+import os
+from sqlite3 import Date
+import pandas as pd
+import requests
+import streamlit as st
+from dotenv import load_dotenv
+from datetime import datetime
+from MCForecastTools import MCSimulation
+import matplotlib.pyplot as plt
+import yfinance as yf  
+```
 
 # Import the required libraries and dependencies
 
 ```
 import numpy as np
-
 import pandas as pd
-
 import os
-
 import alpaca_trade_api as tradeapi
-
 import datetime as dt
-
 import pytz
 ```
 
@@ -131,8 +125,6 @@ import pytz
 As a user, I want to learn about how the performance of newly created Bitcoin Exchange Traded Funds (ETF) compares to the performance of the S&P 500 and individual cryptocurrencies.
 
 To use the Crypto ETF app, the user must input their initial investment, stock ticker, cryptocurrency, portfolio allocation, and number of years to simulate. The app then calls for data via API and renders plots for the user to review.
-
-
 
 The following are investment options available to the user(s) against the S&P 500 (SPY).  
 
