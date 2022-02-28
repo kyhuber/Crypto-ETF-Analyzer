@@ -126,15 +126,15 @@ As a user, I want to learn about how the performance of newly created Bitcoin Ex
 
 To use the Crypto ETF app, the user must input their initial investment, stock ticker, cryptocurrency, portfolio allocation, and number of years to simulate. The app then calls for data via API and renders plots for the user to review.
 
-The following are investment options available to the user(s) against the S&P 500 (SPY).  
+## The following are investment options available to the user(s) against the S&P 500 (SPY) 
 
 <img width="990" alt="Screen Shot 2022-02-27 at 8 04 12 PM" src="https://user-images.githubusercontent.com/96351123/155922170-92ad7311-0d5f-498e-b1bb-557a2760e6f1.png">
 
-Closing prices of SPY, BITW (Stock ETF), and BTC (Crypto ETF) investment options.
+## Closing prices of SPY, BITW (Stock ETF), and BTC (Crypto ETF) investment options
 
 <img width="659" alt="Screen Shot 2022-02-27 at 8 09 58 PM" src="https://user-images.githubusercontent.com/96351123/155922624-244cb021-4f53-4585-aaaf-4f5459dcd0cf.png">
 
-Analysis of overall performance regarding Daily Profit Returns; SPY as the baseline.
+## Analysis of overall performance regarding Daily Profit Returns; SPY as the baseline
 
 <img width="449" alt="Screen Shot 2022-02-27 at 8 11 53 PM" src="https://user-images.githubusercontent.com/96351123/155922813-b6f1a592-04bd-41f3-9c04-76d888b3b743.png">
 
@@ -142,62 +142,65 @@ Analysis of overall performance regarding Daily Profit Returns; SPY as the basel
 
 <img width="681" alt="Screen Shot 2022-02-27 at 8 52 21 PM" src="https://user-images.githubusercontent.com/96351123/155926090-2dc8eca4-1d76-4e1c-8636-98b4c97c7eb7.png">
 
-Risk Evaluation
+## Risk Evaluation
 
 <img width="995" alt="Screen Shot 2022-02-27 at 8 15 03 PM" src="https://user-images.githubusercontent.com/96351123/155923057-8ffc06e0-b8d6-4c5c-8302-37f26ddced45.png">
 
-Monte Carlo Simulation; 40% SPY, 60% Stock ETF.
+## Monte Carlo Simulation; 40% SPY, 60% Stock ETF
 
 <img width="735" alt="Screen Shot 2022-02-27 at 8 16 42 PM" src="https://user-images.githubusercontent.com/96351123/155923188-4d527014-1137-4766-b57b-0174790f203e.png">
 
-Intepretation of findings:
+## Intepretation of findings
 
 <img width="1065" alt="Screen Shot 2022-02-27 at 8 32 14 PM" src="https://user-images.githubusercontent.com/96351123/155924525-33b11ac9-fd85-4d69-8c93-cb60f2e40907.png">
 
-Sharpe Ratios:
+## Sharpe Ratios
 
 <img width="677" alt="Screen Shot 2022-02-27 at 8 54 28 PM" src="https://user-images.githubusercontent.com/96351123/155926278-6e367d42-1a0a-4adb-bb06-27e86ff43018.png">
 
-Average Rolling Beta
+## Average Rolling Beta
 
 <img width="675" alt="Screen Shot 2022-02-27 at 8 55 30 PM" src="https://user-images.githubusercontent.com/96351123/155926354-2ad65e96-4576-42b2-8775-ee0232cf33d0.png">
 
-Monte Carlo Simulation
+## Monte Carlo Simulation
 
-3yr SPY and ETF Porfolio 40:60 allocation Result: if you contributed to this portfolio; then for 100 dollar investment, it would grow to $309.70.
+3yr SPY and ETF Porfolio 40:60 allocation Result: if you contributed to this portfolio; then for 100 dollar investment, it would grow to an estimate of $3159.69 when we run the Monte Carlo Simulation.
 
-10yr SPY and BTC Porfolio 40:60 allocation Result: if you contributed to this portfolio; then for 100 dollar investment, it would grow to $620.88.
+3yr SPY and BTC Porfolio 40:60 allocation Result: if you contributed to this portfolio; then for 100 dollar investment, it would grow to an estimate of $625.80 when we run the Monte Carlo Simulation.
 
-Next 3 trading years of SPY/Stock ETF
+10yr SPY and ETF Porfolio 40:60 allocation Result: if you contributed to this portfolio; then for 100 dollar investment, it would grow to to an estimate of $5387610.96 when we run the Monte Carlo Simulation.
+
+10yr SPY and BTC Porfolio 40:60 allocation Result: if you contributed to this portfolio; then for 100 dollar investment, it would grow to an estimate of $42026.63 when we run the Monte Carlo Simulation.
+
+## Next 3 trading years of SPY/Stock ETF
 
 <img width="894" alt="Screen Shot 2022-02-27 at 8 36 22 PM" src="https://user-images.githubusercontent.com/96351123/155924867-a5501bb5-a312-492a-9dc7-95359b25db8f.png">
 
-Next 3 trading years of SPY/Crypto ETF
+## Next 3 trading years of SPY/Crypto ETF
 
 <img width="895" alt="Screen Shot 2022-02-27 at 8 36 54 PM" src="https://user-images.githubusercontent.com/96351123/155924899-be015ec0-7c36-47b6-a6d1-c3507d3563c3.png">
 
-Next 10 trading years of SPY/Stock ETF
+## Next 10 trading years of SPY/Stock ETF
 
 <img width="921" alt="Screen Shot 2022-02-27 at 8 38 27 PM" src="https://user-images.githubusercontent.com/96351123/155925012-4e96d734-df44-419d-a384-f611fbba2370.png">
 
-Next 10 trading years of SPY/Crypto ETF
+## Next 10 trading years of SPY/Crypto ETF
 
 <img width="915" alt="Screen Shot 2022-02-27 at 8 39 17 PM" src="https://user-images.githubusercontent.com/96351123/155925082-4142e595-61e1-4577-a01d-6b8dd9716faa.png">
 
-Total 10-year earnings/returns since initial investment: SPYxETF
+## Total 10-year earnings/returns since initial investment: SPYxETF
 
 <img width="980" alt="Screen Shot 2022-02-27 at 8 44 42 PM" src="https://user-images.githubusercontent.com/96351123/155925481-61ad725e-a01f-4209-843d-2bb1f9c2d255.png">
 
-Total 10-year earnings/returns since initial investment: SPYxBTC
+## Total 10-year earnings/returns since initial investment: SPYxBTC
 
 <img width="600" alt="Screen Shot 2022-02-27 at 10 03 50 PM" src="https://user-images.githubusercontent.com/96351123/155932427-9a1c61c0-1a55-4e7b-8446-883bb3d7ccd9.png">
 
-Dashboard demonstration:
+## Dashboard demonstration:
 
 ![image (1)](https://user-images.githubusercontent.com/96351123/155931654-4f56fcb1-0f85-41b7-ae8e-8433070ad824.png)
 
 <img width="856" alt="IMG_0426" src="https://user-images.githubusercontent.com/96351123/155931677-09b373f8-14d0-4282-b702-b1a5cfe68292.png">
-
 
 # Contributors
 
