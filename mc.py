@@ -24,7 +24,7 @@ def mcstreamlit(initial_investment,ticker_choice,crypto_choice,weight1,weight2,y
     
     MC_df = MCSimulation(
         portfolio_data = df.dropna(),
-        weights = [weight1,weight2],
+        weights = [weight1*.01,weight2*.01],
         num_simulation = 50,
         num_trading_days = 252*years)
     

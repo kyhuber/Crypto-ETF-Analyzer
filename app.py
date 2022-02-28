@@ -32,7 +32,7 @@ weight1 = int(weight1)
 
 #Ticker Define Input
 ticker_choice = st.sidebar.text_input(
-    "Which stock would you like to compare?",value="SPY")
+    "Which stock would you like to compare? Please enter the stock's ticker.",value="SPY")
 tickerData = yf.Ticker(ticker_choice)
 tickerDf = tickerData.history(period="id", start="2020-10-18",index_col="Date", parse_dates=["Date"])
 
