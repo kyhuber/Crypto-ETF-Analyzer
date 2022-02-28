@@ -137,7 +137,12 @@ Closing prices of SPY, BITW (Stock ETF), and BTC (Crypto ETF) investment options
 
 Analysis of overall performance regarding Daily Profit Returns; SPY as the baseline.
 
-<img width="449" alt="Screen Shot 2022-02-27 at 8 11 53 PM" src="https://user-images.githubusercontent.com/96351123/155922813-b6f1a592-04bd-41f3-9c04-76d888b3b743.png">
+<img width="449" alt="Screen Shot 2022-02-27 at 8 11 53 PM" ![Uploading Screen Shot 2022-02-27 at 8.50.04 PM.png…]()
+src="https://user-images.githubusercontent.com/96351123/155922813-b6f1a592-04bd-41f3-9c04-76d888b3b743.png">
+
+<img width="643" alt="Screen Shot 2022-02-27 at 8 50 39 PM" src="https://user-images.githubusercontent.com/96351123/155925937-f6856f7f-0710-4134-a7cd-f974a4a129b7.png">
+
+<img width="681" alt="Screen Shot 2022-02-27 at 8 52 21 PM" src="https://user-images.githubusercontent.com/96351123/155926090-2dc8eca4-1d76-4e1c-8636-98b4c97c7eb7.png">
 
 Risk Evaluation
 
@@ -150,6 +155,14 @@ Monte Carlo Simulation; 40% SPY, 60% Stock ETF.
 Intepretation of findings:
 
 <img width="1065" alt="Screen Shot 2022-02-27 at 8 32 14 PM" src="https://user-images.githubusercontent.com/96351123/155924525-33b11ac9-fd85-4d69-8c93-cb60f2e40907.png">
+
+Sharpe Ratios:
+
+<img width="677" alt="Screen Shot 2022-02-27 at 8 54 28 PM" src="https://user-images.githubusercontent.com/96351123/155926278-6e367d42-1a0a-4adb-bb06-27e86ff43018.png">
+
+Average Rolling Beta
+
+<img width="675" alt="Screen Shot 2022-02-27 at 8 55 30 PM" src="https://user-images.githubusercontent.com/96351123/155926354-2ad65e96-4576-42b2-8775-ee0232cf33d0.png">
 
 Monte Carlo Simulation
 
