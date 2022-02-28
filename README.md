@@ -98,23 +98,14 @@ Installing Matplotlib:
    ## Matplotlib import from application for Monte Carlo Simulation
    ```
    import os
-   
    from sqlite3 import Date
-   
    import pandas as pd
-   
    import requests
-   
    import streamlit as st
-   
    from dotenv import load_dotenv
-   
    from datetime import datetime
-   
    from MCForecastTools import MCSimulation
-   
    import matplotlib.pyplot as plt
-   
    import yfinance as yf
    
    ```
