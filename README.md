@@ -53,7 +53,70 @@ Yahoo Finance API
 Alphavantage API
 Streamlit
 
-# Installation Guide (MacOS)
+# Installation Guide Python (MacOS)
+
+1.  Command + Space
+2.  Enter Terminal in search bar and press enter
+3.  Terminal should open
+4.  Open Homebrew Installation website in browser (https://brew.sh/)
+5.  Copy installation code at the bottom of the page
+6.  Once Homebrew is installed, install Python
+7.  Open Terminal 
+8.  Enter "brew install python3" into the CLI to install Python
+
+Installing Anaconda with Python (MacOS):
+
+1.  Enter "conda create -n dev python=3.7 anaconda" into the command line terminal
+2.  Return and type Y when prompted
+3.  Open environment by entering "conda activate dev"
+4.  Enable terminal commands through conda by enter "echo $ {SHELL}" to check BASH/ZSH environment
+5.  Depending on if BASH/ZSH, type "conda init bash or ZSH" to activate conda terminal commands
+4.  Close environment by entering "conda deactivate"
+    
+Installing Python Fire (MacOS):
+
+1.  Open Terminal (Command + Space and serach terminal, press enter)
+2.  Enter the following into CLI:  "pip install fire"
+3.  Import as fire by entering the following into CLI: "import fire"
+
+Installing Questionary: 
+
+1.  Open Terminal (Command + Space and serach terminal, press enter)
+2.  Enter the following into CLI:  "pip install questionary"
+3.  Import by entering the following into CLI: "import questionary"
+
+Installing Matplotlib:
+
+1.  Open Terminal (Command + Space and serach terminal, press enter)
+2.  Enter the following into CLI:  
+   "import pandas as pd
+   import numpy as np
+   from pathlib import Path
+
+   %matplotlib inline"
+
+   ## Matplotlib import from application for Monte Carlo Simulation
+   import os
+   from sqlite3 import Date
+   import pandas as pd
+   import requests
+   import streamlit as st
+   from dotenv import load_dotenv
+   from datetime import datetime
+   from MCForecastTools import MCSimulation
+   import matplotlib.pyplot as plt
+   import yfinance as yf
+
+Installing MCForecast Tools: 
+
+# Import the required libraries and dependencies
+
+import numpy as np
+import pandas as pd
+import os
+import alpaca_trade_api as tradeapi
+import datetime as dt
+import pytz
 
 
 # Usage
