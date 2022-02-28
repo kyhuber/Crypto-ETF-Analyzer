@@ -192,7 +192,7 @@ Total 10-year earnings/returns since initial investment: SPYxETF
 
 Total 10-year earnings/returns since initial investment: SPYxBTC
 
-<img width="900" alt="Screen Shot 2022-02-27 at 8 45 48 PM" src="https://user-images.githubusercontent.com/96351123/155925584-15512a47-522c-4d79-a81b-9ca5336764cd.png">
+<img width="600" alt="Screen Shot 2022-02-27 at 10 03 50 PM" src="https://user-images.githubusercontent.com/96351123/155932427-9a1c61c0-1a55-4e7b-8446-883bb3d7ccd9.png">
 
 Dashboard demonstration:
 
