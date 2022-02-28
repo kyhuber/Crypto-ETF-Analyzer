@@ -143,7 +143,7 @@ Risk Evaluation
 
 <img width="995" alt="Screen Shot 2022-02-27 at 8 15 03 PM" src="https://user-images.githubusercontent.com/96351123/155923057-8ffc06e0-b8d6-4c5c-8302-37f26ddced45.png">
 
-Monte Carlo Simulation; 40% SPY, 60% Crypto ETF.
+Monte Carlo Simulation; 40% SPY, 60% Stock ETF.
 
 <img width="735" alt="Screen Shot 2022-02-27 at 8 16 42 PM" src="https://user-images.githubusercontent.com/96351123/155923188-4d527014-1137-4766-b57b-0174790f203e.png">
 
@@ -163,6 +163,7 @@ https://www.linkedin.com/in/sumayyahmuhammadofficial
 
 John Batarse 
 jbatarse@hotmail.com
+
 
 
 # License
