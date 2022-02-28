@@ -1,4 +1,29 @@
-# Crypto ETF Investment Analysis
+# Crypto ETF Analyzer Application 
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation-and-technologies">Installation and Technologies</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+	<!-- <li><a href="#license">License</a></li> -->
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
 The explosive growth of cryptocurrency prices in recent years has piqued the interest of many investors, both retail and institutional. Although individual cryptocurrencies can be purchased directly through an exchange, new crypto-related investment opportunities are becoming available in the market, such as Exchange Traded Funds (ETFs).
 
@@ -8,8 +33,17 @@ The S&P 500 (SPY) will be used as a baseline throughout the entire application.
 
 Investors will be able to use this application, with it's vizualization tools, to make decisions that are best aligned to their individual investment goals.  
 
-# Technologies required: 
 
+---
+
+## Getting Started
+
+### Installation and Technologies
+
+This was run on a pc using Windows 10
+
+This project leverages python 3.8.8 with the following packages:
+  
 Python
 Pandas
 Jupyter Lab
@@ -20,9 +54,6 @@ Alphavantage API
 Streamlit
 
 # Installation Guide (MacOS)
-
-
-
 
 
 # Usage
@@ -38,6 +69,10 @@ www.linkedin.com/in/alexis-rose-garcia
 Kyle Huber
 kyhuber@gmail.com
 https://www.linkedin.com/in/huberkyle/
+
+Sumayyah Muhammad
+sumayyahmuhammadts@gmail.com
+https://www.linkedin.com/in/sumayyahmuhammadofficial/
 
 
 # License
