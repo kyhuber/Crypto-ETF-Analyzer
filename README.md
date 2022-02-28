@@ -173,6 +173,14 @@ Next 10 trading years of SPY/Crypto ETF
 
 <img width="915" alt="Screen Shot 2022-02-27 at 8 39 17 PM" src="https://user-images.githubusercontent.com/96351123/155925082-4142e595-61e1-4577-a01d-6b8dd9716faa.png">
 
+Total 10-year earnings/returns since initial investment: SPYxETF
+
+<img width="980" alt="Screen Shot 2022-02-27 at 8 44 42 PM" src="https://user-images.githubusercontent.com/96351123/155925481-61ad725e-a01f-4209-843d-2bb1f9c2d255.png">
+
+Total 10-year earnings/returns since initial investment: SPYxBTC
+
+<img width="900" alt="Screen Shot 2022-02-27 at 8 45 48 PM" src="https://user-images.githubusercontent.com/96351123/155925584-15512a47-522c-4d79-a81b-9ca5336764cd.png">
+
 # Contributors
 
 Alexis Rose Garcia
