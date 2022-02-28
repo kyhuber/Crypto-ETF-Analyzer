@@ -147,6 +147,32 @@ Monte Carlo Simulation; 40% SPY, 60% Stock ETF.
 
 <img width="735" alt="Screen Shot 2022-02-27 at 8 16 42 PM" src="https://user-images.githubusercontent.com/96351123/155923188-4d527014-1137-4766-b57b-0174790f203e.png">
 
+Intepretation of findings:
+
+<img width="1065" alt="Screen Shot 2022-02-27 at 8 32 14 PM" src="https://user-images.githubusercontent.com/96351123/155924525-33b11ac9-fd85-4d69-8c93-cb60f2e40907.png">
+
+Monte Carlo Simulation
+
+3yr SPY and ETF Porfolio 40:60 allocation Result: if you contributed to this portfolio; then for 100 dollar investment, it would grow to $309.70.
+
+10yr SPY and BTC Porfolio 40:60 allocation Result: if you contributed to this portfolio; then for 100 dollar investment, it would grow to $620.88.
+
+Next 3 trading years of SPY/Stock ETF
+
+<img width="894" alt="Screen Shot 2022-02-27 at 8 36 22 PM" src="https://user-images.githubusercontent.com/96351123/155924867-a5501bb5-a312-492a-9dc7-95359b25db8f.png">
+
+Next 3 trading years of SPY/Crypto ETF
+
+<img width="895" alt="Screen Shot 2022-02-27 at 8 36 54 PM" src="https://user-images.githubusercontent.com/96351123/155924899-be015ec0-7c36-47b6-a6d1-c3507d3563c3.png">
+
+Next 10 trading years of SPY/Stock ETF
+
+<img width="921" alt="Screen Shot 2022-02-27 at 8 38 27 PM" src="https://user-images.githubusercontent.com/96351123/155925012-4e96d734-df44-419d-a384-f611fbba2370.png">
+
+Next 10 trading years of SPY/Crypto ETF
+
+<img width="915" alt="Screen Shot 2022-02-27 at 8 39 17 PM" src="https://user-images.githubusercontent.com/96351123/155925082-4142e595-61e1-4577-a01d-6b8dd9716faa.png">
+
 # Contributors
 
 Alexis Rose Garcia
@@ -164,7 +190,6 @@ https://www.linkedin.com/in/sumayyahmuhammadofficial
 John Batarse 
 jbatarse@hotmail.com
 https://www.linkedin.com/in/john-a-batarse-760a26116
-
 
 
 # License
