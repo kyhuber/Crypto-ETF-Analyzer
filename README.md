@@ -137,8 +137,7 @@ Closing prices of SPY, BITW (Stock ETF), and BTC (Crypto ETF) investment options
 
 Analysis of overall performance regarding Daily Profit Returns; SPY as the baseline.
 
-<img width="449" alt="Screen Shot 2022-02-27 at 8 11 53 PM" ![Uploading Screen Shot 2022-02-27 at 8.50.04 PM.png…]()
-src="https://user-images.githubusercontent.com/96351123/155922813-b6f1a592-04bd-41f3-9c04-76d888b3b743.png">
+<img width="449" alt="Screen Shot 2022-02-27 at 8 11 53 PM" src="https://user-images.githubusercontent.com/96351123/155922813-b6f1a592-04bd-41f3-9c04-76d888b3b743.png">
 
 <img width="643" alt="Screen Shot 2022-02-27 at 8 50 39 PM" src="https://user-images.githubusercontent.com/96351123/155925937-f6856f7f-0710-4134-a7cd-f974a4a129b7.png">
 
